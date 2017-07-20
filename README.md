@@ -1,1 +1,1 @@
-hotfix======* 游戏中经常用到读写配置的方法, hotfix实现热加载的功能#测试方法* go test 运行test进程* 实时修改config.json配置文件内的内容* ps x 查看进程号* 运行命令 kill -SIGUSR1 进程号, 然后就可以看到配置数据的改变
+hotfix======* 游戏中经常用到读写配置的方法, hotfix实现热加载的功能## 测试方法* go test 运行test进程* 实时修改config.json配置文件内的内容* ps x 查看进程号* 运行命令 kill -SIGUSR1 进程号, 然后就可以看到配置数据的改变
