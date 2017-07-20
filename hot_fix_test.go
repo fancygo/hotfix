@@ -15,7 +15,7 @@ func TestHotfix(t *testing.T) {
 	fmt.Println(*config)
 
 	sig := make(chan os.Signal, 1)
-	signal.Notify(sig, syscall.SIGUSR2)
+	signal.Notify(sig, syscall.SIGUSR1)
 	go func() {
 		for {
 			<-sig

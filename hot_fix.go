@@ -4,10 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	_ "os"
-	_ "os/signal"
-	_ "syscall"
-	_ "time"
 )
 
 type Config struct {
